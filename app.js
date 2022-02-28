@@ -65,6 +65,7 @@ console.log(
 //    that checks if the year is a leap year, and returns the correct
 //    number of days for Feb. The default value for the year should be
 //    the current year
+
 function daysInMonth(month) {
     switch (month) {
         case 1:
