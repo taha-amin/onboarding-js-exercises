@@ -106,6 +106,7 @@ function daysInMonth(month) {
             //break;
     }
 }
+
 console.log(`daysInMonth(2) === 29: ${daysInMonth(2) === 29}`);
 console.log(`daysInMonth(3) === 31: ${daysInMonth(3) === 31}`);
 console.log(`daysInMonth(11) === 30: ${daysInMonth(11) === 30}`);
