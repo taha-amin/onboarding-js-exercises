@@ -104,12 +104,15 @@ function daysInMonth(month) {
         case 12:
             return 31;
             //break;
+        default:
+            console.log('ERROR! You did not enter a number from 1-12');
     }
 }
 
 console.log(`daysInMonth(2) === 29: ${daysInMonth(2) === 29}`);
 console.log(`daysInMonth(3) === 31: ${daysInMonth(3) === 31}`);
 console.log(`daysInMonth(11) === 30: ${daysInMonth(11) === 30}`);
+console.log(`daysInMonth(13): ${daysInMonth(13)}`);
 
 // Additional Practice
 // - [Multiply](https://www.codewars.com/kata/50654ddff44f800200000004)
